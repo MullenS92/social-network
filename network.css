@@ -1,0 +1,181 @@
+/* {
+    border: 1px solid red;
+
+}*/
+
+*{
+    box-sizing: border-box;
+}
+
+header {
+
+height:400px;
+background-color: rgb(221, 212, 212);
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#bluebox {
+    width:850px;
+    margin: 0 auto;
+    height: 85%;
+    background-color: rgb(36, 36, 167);
+
+}
+
+#whitebox {
+    width: 850px;
+    height: 15%;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    
+}
+
+#whitebox ul {
+     margin: 0;
+    padding: 0;
+    display: inline-block;
+    
+
+}
+
+#whitebox ul li {
+    font-size: 14px;
+    display: inline;
+    padding-right: 0px;
+    margin-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-right:1px solid lightgrey;
+    position: relative;
+    left: 230px;
+    
+}
+
+
+
+#whitebox ul li:first-child {
+    font-weight: bold;
+    border-right:0px;
+    padding-right: 0;
+    margin-right: 20px;
+    border-bottom: 4px solid blue;
+}
+
+#whitebox ul li:last-child {
+    border-right: 0px;
+}
+
+
+#photobox {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: blue;
+    border: 1px solid black; 
+    margin-left: 14px;
+    top: 165px;
+}
+#htext {
+    position: relative;
+    background-color: none;
+    left: 230px;
+    top: 40px;
+    color: white;
+}
+
+#htext h1 {
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+#htext h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#buttons {
+    position: relative;
+    font-size: 14px;
+    width: 287px;
+    left: 550px;
+    top: 0px;
+}
+
+#likebutton {
+    background-color: #ffffff;
+    padding-left:10px;
+    padding-right:10px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-top: 2px;
+    float:left;
+}
+
+#buttonsbar {
+    padding: 0;
+    float: right;
+}
+
+#buttonsbar div {
+    
+    float: left;
+    height: 30px;
+    padding-left:10px;
+    padding-right:10px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid black;
+    border-left: 0px;
+    padding-top: 6px;
+    background-color: white;
+}
+
+#buttonsbar div:not(:first-child):not(:last-child) {
+    border-radius: 0;
+    padding-top: 2px;
+}
+
+#buttonsbar div:first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: gray;
+}
+
+#buttonsbar div:last-child{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-top:7px;
+}
+
+body {
+    background-color:  rgb(221, 212, 212);
+}
+
+#wrap {
+    width: 850px;
+    background-color: transparent;
+    margin: 0 auto;
+    height:auto;
+}
+
+.left {
+    width: 328px;
+    background-color: #ffffff;
+    height:150px;
+    float:left;
+}
+
+
+
+.right {
+    width: 512px;
+    background-color: white; 
+    height: 200px;
+    float: right;
+}
